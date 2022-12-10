@@ -1,8 +1,5 @@
 var theToggle = document.getElementById('toggle');
 
-// based on Todd Motto functions
-// https://toddmotto.com/labs/reusable-js/
-
 // hasClass
 function hasClass(elem, className) {
 	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
@@ -35,12 +32,10 @@ function toggleClass(elem, className) {
         elem.className += ' ' + className;
     }
 }
-
 theToggle.onclick = function() {
    toggleClass(this, 'on');
    return false;
 }
-
 
 var validate = function(e) {
     var fields = document.querySelectorAll('.form-container textarea, .form-container input[type="text"]');
@@ -53,7 +48,6 @@ var validate = function(e) {
 
     for (var i = 0; i < fields.length; i++) {
         if (fields[i].value === "") {
-          
             if (fields[i].nextElementSibling.classList.contains('error')) {
               removeSpan = fields[i].nextElementSibling;
               par = fields[i].parentNode;
@@ -83,7 +77,6 @@ var validate = function(e) {
                   check = true;
                 }
             }
-          
             if(fields[i].id === 'phone') {
               val = isValidPhone(fields[i]);
               if(val === false) {
@@ -94,7 +87,7 @@ var validate = function(e) {
               } else {
                 fields[i].nextElementSibling.innerHTML = "";
                 fields[i].style.boxShadow = "none";
-                check = true;  
+                check = true;
               }
             }
 
@@ -113,7 +106,6 @@ var validate = function(e) {
             }
         }
     }
-  
     if(check === false) {
       var count = 0;
       var toErr = setInterval(function() {
@@ -127,7 +119,6 @@ var validate = function(e) {
         }
       }, 1);
     }
-    
     return check
 
     // Helper functions.
@@ -138,7 +129,6 @@ var validate = function(e) {
             return false;
         }
     }
-
     function isValidChar(e) {
         regEx = /^[a-zA-Z@#$%!?^&*()_+\-=\[\]{};':"\\|,.\/? ]*$/;
         var value = e.value;
@@ -146,7 +136,6 @@ var validate = function(e) {
             return false;
         }
     }
-  
     function isValidPhone(e) {
       regEx = /^[+]?[(]?[+]?\d{2,4}[)]?[-\s]?\d{2,8}[-\s]?\d{2,8}$/;
       var value = e.value;
