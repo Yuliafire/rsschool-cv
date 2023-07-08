@@ -1,1 +1,1 @@
-# rsschool-cv
+https://yuliafire.github.io/rsschool-cv/
