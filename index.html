@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Podgurskaia</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icons/copy.icon=">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+     <!--banner section start-->
+    <section class="banner" id="sec">
+        <header>
+           <a href="#yulia" class="logo">AD ASTRA</a>
+           <a href="#nav" id="toggle"><span></span></a>
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick><span class="material-icons">
+                        home
+                        </span>
+                        Home</a></li>
+                    <li><a href="#about" onclick><span class="material-icons">
+                        account_circle
+                        </span>
+                        About me</a></li>
+                    <li><a href="#skills" onclick><span class="material-icons">
+                        rocket_launch
+                        </span>Skills</a></li>
+                    <li><a href="#education" onclick><span class="material-icons">
+                        school
+                        </span>Education</a></li>
+                    <li><a href="#projects" onclick><span class="material-icons">
+                        stars
+                        </span>Projects</a></li>
+                    <li><a href="#contact" onclick><span class="material-icons">
+                        mail
+                        </span>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>My name is Yulia<br>I'm a <span>front-end developer</span></h1>
+            <p>willing to join an amazing team of developers</p>
+            <a href="https://www.linkedin.com/mwlite/in/yulia-podgurskaia-a30694143">Read More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/login.php/"><img src="./assets/img/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicnUifQ%3D%3D%22%7D"><img src="./assets/img/twitter.png" alt="twitter"></a></li>
+            <li><a href="https://www.linkedin.com/mwlite/in/yulia-podgurskaia-a30694143"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
+        </ul>
+    </section>
+    <!--banner section end-->
+  <main>
+   <!--about section start-->
+    <section class="about" id="about">
+        <div class="title-skills white">
+            <h2>About me</h2>
+            <p>Education is the most powerful weapon that can change your life!</p>
+        </div>
+        <div class="about-box">
+            <div class="vidBx">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KxHPa6y26Xw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="textBx">
+                <ul class="about-text">
+                    <li>C-2 English level</li>
+                    <li>120 hours TEFL Certificate</li>
+                    <li>Professional ITALKI teacher</li>
+                    <li>English coach | Chinese teacher </li>
+                    <li>Self-taught Frontend Developer</li>
+                    <li>Hobbies: piano, singing, dancing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--about section start-->
+    <!--section skills start-->
+    <section class="skills" id="skills">
+        <div class="skills-heading">
+          <h2>Skills</h2>
+       </div>
+        <div class="skills-box">
+            <div class="courses">
+                <h2>My Courses</h2>
+                <ul>
+                   <li>UDEMY "Web-developer"</li>
+                   <li>CODE BASICS "HTML","CSS", "JS"</li>
+                   <li>Free Code Camp "SASS", "Bootstrap"</li>
+                   <li>Free Code Camp "Basic JavaScript"</li>
+                   <li>RS SCHOOL "JS and FRONT-END"</li>
+                </ul>
+            </div>
+            <div class="skillset">
+                <h2>Skillset</h2>
+                <ul class="first-list">
+                    <li class="html-icon"><img src="./assets/icons/html-5.png" alt="html5" width="60" height="60"></li>
+                    <li class="github-icon"><img src="./assets/img/iconmonstr-github-1.svg" alt="github" width="65" height="65"></li>
+                    <li class="js-icon"><img src="./assets/icons/js.png" alt="js" width="55" height="55"></li>
+                </ul>
+
+                <ul class="second-list">
+                    <li><img src="./assets/icons/css.png" alt="css" width="65" height="65"></li>
+                    <li><img src="./assets/icons/icons8-atom-64.png" alt="reactjs" width="60" height="60"></li>
+                    <li><img src="./assets/icons/icons8-visual-studio-48.png" alt="VSC" width="60" height="60"></li>
+                </ul>
+
+                <ul class="third-list">
+                    <li><img src="./assets/icons/adobe-photoshop-logo.png" alt="photoshop" width="65" height="65"></li>
+                    <li><img src="./assets/icons/figma.png" alt="figma" width="60" height="60"></li>
+                    <li><img src="./assets/icons/sass.png" alt="sass" width="60" height="60"></li>
+                </ul>
+            </div>
+        </div>
+            <div class="code">
+                <div class="coding">
+                    <h2>Code example</h2>
+                    <div class="code-container">
+                    <pre>
+                    <code>
+                var canvas = document.querySelector('canvas'),
+                ctx = canvas.getContext('2d');
+                // Setting the width and height of the canvas
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                // Setting up the letters
+                var letters = 'JKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEDEF';
+                letters = letters.split('');
+                // Setting up the columns
+                var fontSize = 10,
+                columns = canvas.width / fontSize;
+                // Setting up the drops
+                var drops = [];
+                for (var i = 0; i < columns; i++) {
+                drops[i] = 1;
+                }
+                    </code>
+                </pre>
+              </div>
+            </div>
+        </div>
+      </div>
+   </div>
+</section>
+<!--section skills end-->
+
+<!--education section start-->
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="edu-container">
+            <div class="сollege">
+                <h2>Bachelor's degree in Accounting</h2>
+                <p>Branch of BSEU "Minsk Financial and Economic College" (2003-2004)</p>
+            </div>
+        <div class="uni">
+            <h2>Bachelor's degree in Economics and Accounting</h2>
+            <p>Russian Social State University (2004-2008)</p>
+        </div>
+        <div class="eng">
+            <h2>TEFL (teaching English as a Foreign Language)</h2>
+            <p>Premium English School (2010-2014)</p>
+        </div>
+        </div>
+        <div class="certificates">
+            <h2>Certificates</h2>
+            <div class="eng-container">
+                <img src="./assets/img/udemycert.jpg" alt="dev certificate" width="300" height="250">
+                <p>Successfully completed 33,5 hours course "Web-developer 2022" provided by Udemy. Have learnt HTML5, CSS3, SCSS, SASS, Flex, Grid, BEM, Bootsrtap, Git, and JavaScript fundamentals. Have built several pet-projects including my portfolio-website which was built with React JS</p>
+            </div>
+         </div>
+      </section>
+       <!--education section end-->
+       <!--projects section start-->
+       <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="swiper sample-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img/img:sample1.jpg" alt="engsite"></div>
+                    <div class="swiper-slide"><img src="./assets/img/img:sample2.jpg" alt="restsite"></div>
+                    <div class="swiper-slide"><img src="./assets/img/img:sample3.jpg" alt="musicsite"></div>
+                    <div class="swiper-slide"><img src="./assets/img/img:sample4.jpg" alt="sasssite"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+       </section>
+     <!--projects section end-->
+
+    <!--contact me section start-->
+    <section class="contact" id="contact">
+        <div class="form-container">
+            <h2>Contact me</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="fe9b7afd-19fc-428c-a684-d85d3019d9ab">
+                <label for="fname">First Name</label>
+                 <input type="text" id="fname"  name="firstname" required placeholder="Your name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" required placeholder="Your last name">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" required placeholder="Type your request"></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <a href="tel:+79184653807">
+            <span class="material-icons">phone_enabled</span>+79184653807</a>
+            <a href="mailto:linguavoice1@yahoo.com">
+            <span class="material-icons">mail_outline</span>linguavoice1@yahoo.com</a>
+        </div>
+      </section>
+     <!--contact me section end-->
+     </main>
+
+     <!--footer section start-->
+     <footer>
+        <ul>
+            <li><img src="./assets/icons/icons8-github-3d-fluency-96.png" alt='github icon'><a href="https://github.com/Yuliafire">GitHub</a></li>
+            <li class="rsschool"><img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="logo" width="100" height="50"><a href="https://rs.school/js/">RS School</a></li>
+        </ul>
+        <div class="copyright">
+            <p>© 2023 Yulia Podgurskaia</p>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     </footer>
+     <!--footer section end-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+ </body>
+</html>
