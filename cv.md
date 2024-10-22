@@ -4,41 +4,42 @@ ____
 ## Contact Information:
 
 * __[GitHub](https://github.com/Yuliafire)__
-* __[Telegram](https://t.me/English_IT_group)__
-* __[LinkedIn](https://www.linkedin.com/in/yulia-podgurskaia-a30694143)__
-* __[Website](https://yulia-dev.netlify.app)__
+* __[Telegram](https://t.me/eng_with_Lucy)__
+* __[Website](https://english-speaker.netlify.app/)__
 * __Phone__: +79184653807
-* __Telegram__: @Yuliawebdev
+* __Telegram__: @linguavoice
 * __email__: linguavoice1@yahoo.com
 
 
 ____
 
 ## Summary:
- I'm a self-taught Front-end developer. I have been learning frontend for about 10 months. I'm passionate about tech and AI. I consider myself as an extremelly hardworking, responsible, persistent and goal-oriented person.
+ I'm a self-taught Front-end developer. I have been learning frontend development for about 3 years. I'm passionate about tech and AI. I consider myself as an extremelly hardworking, responsible, persistent and goal-oriented person.
 
-  My goal is to become a full-stack developer. In the near future apart from Js I plan to learn Python and Java. I'm a life-time learner. I never give up when it comes to achieving my goals.
+  My goal is to become a full-stack developer. In the near future apart from mastering Js I plan to learn the fundamentals of Python and Java. I'm a life-time learner. I never give up when it comes to achieving my goals.
 
  I'm very fluent in English and don't have any slavic accent. I can also speak and write some Chinese Mandarin.
 
 My most favorite school subjects were Math, chemistry, languages, literature, physics. In addition, I studied at music school. I won lots of  school competitions in the field of music, math, chemistry, languages.
 
-It's my natural ability and talent to quickly learn languages and other things so I guess I can successfully apply it in programming.
+I want to succeed in programming and have an intention to use all my will power and focus to achieve this. 
 
 ______
 
 
 ## Skills:
-  * HTML5, CSS3, Figma
-  * VS Code, CLI
-  * JavaScript fundamentals
+  * HTML5, CSS3
+  * JavaScript 
   * React Js basics
-  * Node npm
+  * VS Code, CLI
   * Git, GitHub
-  ______
+  * MySQL
+  * Figma
+
+____
 
 ## Languages:
-  * __English - C2__
+  * English - C2
   * Russian - native
   * Chinese - HSK2
 
