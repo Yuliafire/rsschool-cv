@@ -30,7 +30,7 @@ ______
 ## Skills:
   * HTML5, CSS3
   * JavaScript 
-  * React Js basics
+  * React Js Basics
   * VS Code, CLI
   * Git, GitHub
   * MySQL
@@ -58,7 +58,7 @@ ____
   * Code Basics: JAVASCRIPT
   * UDEMY: WEB-DEVELOPER
   * UDEMY: BASICS OF HTML AND CSS
-  * RS School Course «JavaScript/Front-end. Stage 0» (in progress)
+  * Free Code Camp: Javascript
 
 ## Certificates:
    * TEFL by tefl.org.uk, 2016
